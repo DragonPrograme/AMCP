@@ -1,0 +1,5 @@
+name: AntiMultiAccount
+version: '${project.version}'
+main: org.dragonmc.antimultiaccount.AntiMultiAccount
+api-version: 1.19
+load: STARTUP
