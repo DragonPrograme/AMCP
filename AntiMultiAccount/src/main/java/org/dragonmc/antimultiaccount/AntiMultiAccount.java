@@ -8,7 +8,7 @@ public final class AntiMultiAccount extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getLogger().info("§c§lMULTIACCOUNT &4Protection &6is enabled!");
+        Bukkit.getLogger().info("§c§lMULTIACCOUNT &4Protection &6is enabled!");//You can Change the enable log here.
         getServer().getPluginManager().registerEvents(new Core(), this);
 
     }
@@ -16,6 +16,6 @@ public final class AntiMultiAccount extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getLogger().info("§c§lMULTIACCOUNT &4Protection &6is disabled!");
+        Bukkit.getLogger().info("§c§lMULTIACCOUNT &4Protection &6is disabled!");//You can Change the disable log also.
     }
 }
