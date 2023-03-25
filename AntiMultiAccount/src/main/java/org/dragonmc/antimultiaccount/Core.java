@@ -18,7 +18,7 @@ public class Core implements Listener {
             String onlinePlayerIP = onlinePlayer.getAddress().getAddress().getHostAddress().split(":")[0];
 
             if (playerIP.equals(onlinePlayerIP) && !player.equals(onlinePlayer)) {
-                player.kickPlayer("Multi-accounting is not §callowed §ron this server.");
+                player.kickPlayer("Multi-accounting is not §callowed §ron this server."); //You can change here the Kick Message for example (Hypixel Multi Account Protection)
             }
         }
     }
